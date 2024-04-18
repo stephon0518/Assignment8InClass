@@ -21,7 +21,7 @@ namespace UnitTest1
 		{
 
 			CoolClass coolClass;
-			Assert::AreEqual(6, coolClass.Calc(3, 2));//Changing the 5 to 6
+			Assert::AreEqual(5, coolClass.Calc(3, 2));
 		}
 	};
 }
